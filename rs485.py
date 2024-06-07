@@ -197,49 +197,50 @@ def setPumpOut(state):
     time.sleep(1)
     print(serial_read_data(ser))
 
-while True:
-    setMixer1(True)
-    time.sleep(2)
-    setMixer1(False)
-    time.sleep(2)
-
-    setMixer2(True)
-    time.sleep(2)
-    setMixer2(False)
-    time.sleep(2)
-
-    setMixer3(True)
-    time.sleep(2)
-    setMixer3(False)
-    time.sleep(2)
-
-    setSelector4(True)
-    time.sleep(2)
-    setSelector4(False)
-    time.sleep(2)
-
-    setSelector5(True)
-    time.sleep(2)
-    setSelector5(False)
-    time.sleep(2)
-
-    setSelector6(True)
-    time.sleep(2)
-    setSelector6(False)
-    time.sleep(2)
-
-    setPumpIn(True)
-    time.sleep(2)
-    setPumpIn(False)
-    time.sleep(2)
-
-    setPumpOut(True)
-    time.sleep(2)
-    setPumpOut(False)
-    time.sleep(2)
-
 # while True:
-#     print("TEST SENSOR")
+#     setMixer1(True)
+#     time.sleep(2)
+#     setMixer1(False)
+#     time.sleep(2)
+
+#     setMixer2(True)
+#     time.sleep(2)
+#     setMixer2(False)
+#     time.sleep(2)
+
+#     setMixer3(True)
+#     time.sleep(2)
+#     setMixer3(False)
+#     time.sleep(2)
+
+#     setSelector4(True)
+#     time.sleep(2)
+#     setSelector4(False)
+#     time.sleep(2)
+
+#     setSelector5(True)
+#     time.sleep(2)
+#     setSelector5(False)
+#     time.sleep(2)
+
+#     setSelector6(True)
+#     time.sleep(2)
+#     setSelector6(False)
+#     time.sleep(2)
+
+#     setPumpIn(True)
+#     time.sleep(2)
+#     setPumpIn(False)
+#     time.sleep(2)
+
+#     setPumpOut(True)
+#     time.sleep(2)
+#     setPumpOut(False)
+#     time.sleep(2)
+
+
+while True:
+    print("TEST SENSOR")
 
 #     print("flow:")
 #     print(readFlow())
@@ -249,10 +250,10 @@ while True:
 #     print(readSonar())
 #     time.sleep(2)
 
-#     print("soil moisture:")
-#     print(readMoisture())
-#     time.sleep(2)
+    print("soil moisture:")
+    print(readMoisture())
+    time.sleep(2)
 
-#     print("temp: ")
-#     print(readTemperature())
-#     time.sleep(2)
+    print("temp: ")
+    print(readTemperature())
+    time.sleep(2)
