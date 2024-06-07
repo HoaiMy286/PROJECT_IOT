@@ -11,8 +11,8 @@ def getPort():
         if "USB" in strPort:
             splitPort = strPort.split(" ")
             commPort = (splitPort[0])
-    # return commPort
-    return "/dev/ttyUSB1"
+    return commPort
+    # return "/dev/ttyUSB1"
 
 # portName = "COM3"
 # portName = getPort()
