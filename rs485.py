@@ -19,7 +19,7 @@ def getPort():
 print(getPort())
 
 try:
-    ser = serial.Serial(port=getPort(), baudrate=115200)
+    ser = serial.Serial(port=getPort(), baudrate=9600)
     print("Open successfully")
 except:
     print("Can not open the port")
